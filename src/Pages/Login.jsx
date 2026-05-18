@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { getUsersAPI } from '../Services/allAPI'
+import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+
 
 function Login() {
   const [loginData, setLoginData] = useState({ username: '', password: '' })
@@ -35,9 +37,9 @@ function Login() {
           <div className="text-center py-4">
             <h2 className="text-success fw-bold">Login Successful!</h2>
             <p className="text-muted">Welcome to your dashboard.</p>
-            <Link to="/create" className="btn btn-danger w-100 fw-bold py-2 mt-3">
+            <Button onClick={() => window.location.href = "/create"} className="btn btn-danger w-100 fw-bold py-2 mt-3">
               Go to My Watchlist
-            </Link>
+            </Button>
           </div>
         ) : (
           <div>
