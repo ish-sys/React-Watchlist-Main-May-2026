@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getUsersAPI } from '../services/allAPI'
+import { getUsersAPI } from '../Services/allAPI'
 
 function Login() {
   const [loginData, setLoginData] = useState({ username: '', password: '' })

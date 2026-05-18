@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { addWatchlistAPI, getAllWatchlistsAPI, updateWatchlistAPI, deleteWatchlistAPI } from '../services/allAPI'
+import { addWatchlistAPI, getAllWatchlistsAPI, updateWatchlistAPI, deleteWatchlistAPI } from '../Services/allAPI'
 import { Button } from 'react-bootstrap'
 
 function Createwatchlist() {

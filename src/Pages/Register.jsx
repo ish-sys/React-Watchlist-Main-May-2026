@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getUsersAPI, registerUserAPI } from '../services/allAPI' 
+import { getUsersAPI, registerUserAPI } from '../Services/allAPI' 
 
 function Register() {
   const [formData, setFormData] = useState({

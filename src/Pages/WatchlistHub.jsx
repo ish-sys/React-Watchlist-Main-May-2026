@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { getAllWatchlistsAPI, updateWatchlistAPI } from '../services/allAPI'
+import { getAllWatchlistsAPI, updateWatchlistAPI } from '../Services/allAPI'
 import DetailedView from '../Components/DetailedView';
 
 
